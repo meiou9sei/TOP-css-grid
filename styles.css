@@ -50,3 +50,95 @@ table {
 /***************/
 /* CSS RESET ^ */
 /***************/
+
+/*********/
+/* Fonts */
+/*********/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+nav {
+	font-size: 1.5rem;
+}
+
+footer {
+	color: rgba(0,0,0,0.5)
+}
+
+/**************/
+/* Containers */
+/**************/
+
+.ultimate-container {
+	background-color: yellow;
+
+	height: 100vh;
+	display: flex;
+}
+
+.left-nav {
+	background-color: lightcoral;
+	
+	width: 20%;
+}
+
+.left-nav > * {
+	margin: 10px;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+}
+
+nav {
+	background-color: orange;
+	
+	
+}
+
+nav > ul {
+	padding: 20px;
+}
+
+nav > ul > * {
+	margin: 20px;
+}
+
+.right-main {
+	background-color: lightblue;
+
+	width: 80%;
+}
+
+.header-container {
+	background-color: purple;
+}
+
+.main-top {
+	background-color: aqua;
+}
+
+.main-mid {
+	display: grid;
+	grid-template-columns: 8fr 2fr;
+}
+
+.projects-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.project-card {
+	background-color: pink;
+}
